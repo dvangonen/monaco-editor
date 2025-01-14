@@ -1,5 +1,5 @@
 {
-  "name": "react-vite-example",
+  "name": "monaco-editor",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@codingame/monaco-vscode-chat-extensions-notebook-task-terminal-testing-common": "^11.1.2",
