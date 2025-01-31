@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -12,12 +12,11 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@codingame/monaco-vscode-chat-extensions-notebook-task-terminal-testing-common": "^11.1.2",
-    "@codingame/monaco-vscode-configuration-service-override": "^11.1.2",
-    "monaco-editor": "npm:@codingame/monaco-vscode-editor-api@~11.1.2",
+    "@codingame/monaco-vscode-configuration-service-override": "^3.2.2",
+    "monaco-editor": "npm:@codingame/monaco-vscode-editor-api@~3.2.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "vscode": "npm:@codingame/monaco-vscode-api@^11.1.2"
+    "vscode": "npm:@codingame/monaco-vscode-api@^3.2.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.17.0",

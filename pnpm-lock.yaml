@@ -8,15 +8,12 @@ importers:
 
   .:
     dependencies:
-      '@codingame/monaco-vscode-chat-extensions-notebook-task-terminal-testing-common':
-        specifier: ^11.1.2
-        version: 11.1.2
       '@codingame/monaco-vscode-configuration-service-override':
-        specifier: ^11.1.2
-        version: 11.1.2
+        specifier: ^3.2.2
+        version: 3.2.3
       monaco-editor:
-        specifier: npm:@codingame/monaco-vscode-editor-api@~11.1.2
-        version: '@codingame/monaco-vscode-editor-api@11.1.2'
+        specifier: npm:@codingame/monaco-vscode-editor-api@~3.2.2
+        version: '@codingame/monaco-vscode-editor-api@3.2.3'
       react:
         specifier: ^18.3.1
         version: 18.3.1
@@ -24,8 +21,8 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
       vscode:
-        specifier: npm:@codingame/monaco-vscode-api@^11.1.2
-        version: '@codingame/monaco-vscode-api@11.1.2'
+        specifier: npm:@codingame/monaco-vscode-api@^3.2.2
+        version: '@codingame/monaco-vscode-api@3.2.3'
     devDependencies:
       '@eslint/js':
         specifier: ^9.17.0
@@ -149,50 +146,35 @@ packages:
     resolution: {integrity: sha512-L6mZmwFDK6Cjh1nRCLXpa6no13ZIioJDz7mdkzHv399pThrTa/k0nUlNaenOeh2kWu/iaOQYElEpKPUswUa9Vg==}
     engines: {node: '>=6.9.0'}
 
-  '@codingame/monaco-vscode-api@11.1.2':
-    resolution: {integrity: sha512-8UHz2uH103P+8eXDRAWo1e1PRfMN5F5dR4s/Mb9fX18Qzr8+/GkpWJHhT1t1cd5xY8XwIiH7YyMz6pL0aDOikw==}
+  '@codingame/monaco-vscode-api@3.2.3':
+    resolution: {integrity: sha512-YOad82N2G5Ae/Ry14LOM3Mka6EjzbGXfwIs44xP/kFdhk9m7c1vXiIQxJIyUjTsJgzfEqYvcQKULlt4cqC7cEA==}
 
-  '@codingame/monaco-vscode-base-service-override@11.1.2':
-    resolution: {integrity: sha512-3HENz4IktHaqkaG3bieb+LDuybnT90z9orMmwxvRMtZeExLiMh9/ImiToyQI6sF56s4Eac7Us4dMaaWQsHvenw==}
+  '@codingame/monaco-vscode-base-service-override@3.2.3':
+    resolution: {integrity: sha512-OHVtyMIbcFPC68Fv6jEg7p7MYIK9UzymnbwPRetuOHFj1xMALI7qkl9DH0czBBOZAk+4BttXqZLlJ9Ph3B4HHg==}
 
-  '@codingame/monaco-vscode-chat-comments-extensions-interactive-notebook-search-common@11.1.2':
-    resolution: {integrity: sha512-WUveAa38ZFpZLZklm7DdjO6ywZFp+lRX7svWb/pB7tNgLyxdbMawL9yK3y/RKQ1Usx4OVEQSAhI5V8IWnTeoJg==}
+  '@codingame/monaco-vscode-configuration-service-override@3.2.3':
+    resolution: {integrity: sha512-IaJSGp7fIdPkk0apzlwx7QqjglhojsX2ej6Byd6TTWAI9mRxGJVWXnN9OJfuK3BjwNFTqd8QM9UMxJbt9Elutw==}
 
-  '@codingame/monaco-vscode-chat-extensions-interactive-notebook-search-terminal-common@11.1.2':
-    resolution: {integrity: sha512-yHM2IVGYamskWfsp9et1CQONqZ/MJYHHmJ5w+ne8bsV3gNW3DVw4YRX0P52QPVJpp/l9kdAFrvWkpNVM+IroXA==}
+  '@codingame/monaco-vscode-editor-api@3.2.3':
+    resolution: {integrity: sha512-7EaQf5n3lTtCIciz7UyfoYt4FowhrD8xAc/T7gbyo2LkuSD7A8h4CHbnUOZNhsTqocFqOUSkcQl0z5n0T1LoTQ==}
 
-  '@codingame/monaco-vscode-chat-extensions-notebook-common@11.1.2':
-    resolution: {integrity: sha512-yHzxewsY+bZHhpQtFhGDHCbXy82uvD+3yF0oP79uPZWaPgRJTqlNLj7IB2/VlrszpmLPBolZik25k2GOL6sI1Q==}
+  '@codingame/monaco-vscode-environment-service-override@3.2.3':
+    resolution: {integrity: sha512-7YVJhS0RuKkrjwzz2ZKJeU98t29Yc2U/NfQfpTTbLfnZVBxPnC4Gbm59bRWswjtbBrIVpO5Dil+00o32HwXzyw==}
 
-  '@codingame/monaco-vscode-chat-extensions-notebook-task-terminal-testing-common@11.1.2':
-    resolution: {integrity: sha512-aDGr6tPwQiyGJMCI8kdMDkl+V21TBXt3jDJJq7RXH5pAjhDsf7JtR2CgJLOVHSvc9EZE/43KuUQpSsYOvkHRGg==}
+  '@codingame/monaco-vscode-extensions-service-override@3.2.3':
+    resolution: {integrity: sha512-YZfEmKaXyXh54rIJ/c9k+D1JeWfHiryW5UfuVgscmLS3QoiLsPRurfVBY4zIBN88rTQknOViqqW7llpnmaiFYQ==}
 
-  '@codingame/monaco-vscode-comments-extensions-common@11.1.2':
-    resolution: {integrity: sha512-bQvEYaCgzwyjFEP4zEHHxj3vQBMoG3dt0cJDVKb+b9UkU06LUPhTIwRaMF9GiA3j+KvGRIaVulOkLB/vpEoBxg==}
+  '@codingame/monaco-vscode-files-service-override@3.2.3':
+    resolution: {integrity: sha512-M/yEyD4zSYt7eQISeH/OSUELxx7nXtmXIHjC9mQXBo0VD47nAgjy9Yo3vS1al3+Sz3j1Uj2je96x/6Q9zGwg4A==}
 
-  '@codingame/monaco-vscode-configuration-service-override@11.1.2':
-    resolution: {integrity: sha512-dzsl3q4i9AsTSIH7nA8N6VjrXyZlCsuAMz5wL9dqbDy06ddfU9nUm/kVYFeAO3ueCEH7xt5R0uV3YZtLhqh3xw==}
+  '@codingame/monaco-vscode-host-service-override@3.2.3':
+    resolution: {integrity: sha512-zY54k4czioGczMOmWPF6aHx7jrHSnkU1D36MYyY3wrvFgI5diJCrCSz35VPf0WTlLh4OT1jJ+D9ufmJ1cn1moQ==}
 
-  '@codingame/monaco-vscode-editor-api@11.1.2':
-    resolution: {integrity: sha512-RYnk0VpL0uSvrFD9k1Oka+K4dP3rhptBzIFVKwjlvCxL0n/mdbECbrcTLKn7wpR11wfMMWvFDHqlNH7ri3rsXg==}
+  '@codingame/monaco-vscode-layout-service-override@3.2.3':
+    resolution: {integrity: sha512-ZMSjElmJdvMb4C7TJe71QJXvn4EZ8YvDGCNChuUHmbGfaX2MEmtMBvMjZH+z5RF5IA1Mtx6RztSBJHDhhYgjBA==}
 
-  '@codingame/monaco-vscode-environment-service-override@11.1.2':
-    resolution: {integrity: sha512-2MohnDywpFLGVw4afgxSO2vrXyZptppnnkF3im9PF5wx+pC5NhjZb14tjcrZFl5pVQmZby6tQUzhZOPjdAVyJw==}
-
-  '@codingame/monaco-vscode-extensions-service-override@11.1.2':
-    resolution: {integrity: sha512-RJWclpQwywEylLQ9Q+onk22qt83SZeHn3596SDtCUvZn4/uUfyJ8DbRm3gqNdQxSXEO7jhdC4ITnlaY3AbxHTA==}
-
-  '@codingame/monaco-vscode-files-service-override@11.1.2':
-    resolution: {integrity: sha512-0On3hBe5mOLPF+9E4KePj0JuLX+0ex/x+YLzH7qnLw89YyZtY8muz6yAXs+nIp5h/wFQi+uxb9m+vWCAB01I8Q==}
-
-  '@codingame/monaco-vscode-host-service-override@11.1.2':
-    resolution: {integrity: sha512-DLoOM8HcrcoyB8np0CzIN3VJ9pOKuYVOBC1fHzgKBp5i/+akJK5e+5JHj6Au3kUEVSd1cJLjn6dNz58QrbLAhA==}
-
-  '@codingame/monaco-vscode-layout-service-override@11.1.2':
-    resolution: {integrity: sha512-WB/wYSV8/Y1C2qgprkkq0+gRi/KTmxpDQc0RZN9tlBHS1C4vLSnuDcXsNsqsXb8VuZ0KAWcES0qJfWGh5Cm1OA==}
-
-  '@codingame/monaco-vscode-quickaccess-service-override@11.1.2':
-    resolution: {integrity: sha512-VT6F25bEtCvVE2kjBOfgiFOQ1V7YynlrhsHXFZEUzVTK0vFM13Za5otS/CTwgI/ml5FRDFjQKYJjKBAWmlPCaw==}
+  '@codingame/monaco-vscode-quickaccess-service-override@3.2.3':
+    resolution: {integrity: sha512-vr6l1tvA81yOfYKG5zdCaMoGeE7ruWXfISeQv8XcHpr1/VvxCdeBOi22GhRaomEKg9ioAqxzAe0WK8cS96ftIA==}
 
   '@esbuild/aix-ppc64@0.24.2':
     resolution: {integrity: sha512-thpVCb/rhxE/BnMLQ7GReQLLN8q9qbHmI55F4489/ByVg2aQaQ6kbcLb6FHkocZzQhxc4gx0sCk0tJkKBFzDhA==}
@@ -560,9 +542,6 @@ packages:
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^4.2.0 || ^5.0.0 || ^6.0.0
-
-  '@vscode/iconv-lite-umd@0.7.0':
-    resolution: {integrity: sha512-bRRFxLfg5dtAyl5XyiVWz/ZBPahpOpPrNYnnHpOpUZvam4tKH35wdhP4Kj6PbM0+KdliOsPzbGWpkxcdpNB/sg==}
 
   acorn-jsx@5.3.2:
     resolution: {integrity: sha512-rq9s+JNhf0IChjtDXxllJ7g41oZk5SlXtp0LHwyA5cejwn7vKmKp4pPri6YEePv2PU65sAsegbXtIinmDFDXgQ==}
@@ -1130,10 +1109,6 @@ packages:
     resolution: {integrity: sha512-wpxZs9NoxZaJESJGIZTyDEaYpl0FKSA+FB9aJiyemKhMwkxQg63h4T1KJgUGHpTqPDNRcmmYLugrRjJlBtWvRA==}
     hasBin: true
 
-  jschardet@3.1.4:
-    resolution: {integrity: sha512-/kmVISmrwVwtyYU40iQUOp3SUPk2dhNCMsZBQX0R1/jZ8maaXJ/oZIzUOiyOqcgtLnETFKYChbJ5iDC/eWmFHg==}
-    engines: {node: '>=0.1.90'}
-
   jsesc@3.1.0:
     resolution: {integrity: sha512-/sM3dO2FOzXjKQhJuo0Q173wf2KOo8t4I8vHy6lF9poUp7bKT0/NHE8fPX23PwfhnykfqnC2xRxOnVw5XuGIaA==}
     engines: {node: '>=6'}
@@ -1188,11 +1163,6 @@ packages:
   make-dir@3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
-
-  marked@14.0.0:
-    resolution: {integrity: sha512-uIj4+faQ+MgHgwUW1l2PsPglZLOLOT1uErt06dAPtx2kjteLAkbsd/0FiYg/MGS+i7ZKLb7w2WClxHkzOOuryQ==}
-    engines: {node: '>= 18'}
-    hasBin: true
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
@@ -1707,82 +1677,64 @@ snapshots:
       '@babel/helper-string-parser': 7.25.9
       '@babel/helper-validator-identifier': 7.25.9
 
-  '@codingame/monaco-vscode-api@11.1.2':
+  '@codingame/monaco-vscode-api@3.2.3':
     dependencies:
-      '@codingame/monaco-vscode-base-service-override': 11.1.2
-      '@codingame/monaco-vscode-environment-service-override': 11.1.2
-      '@codingame/monaco-vscode-extensions-service-override': 11.1.2
-      '@codingame/monaco-vscode-files-service-override': 11.1.2
-      '@codingame/monaco-vscode-host-service-override': 11.1.2
-      '@codingame/monaco-vscode-layout-service-override': 11.1.2
-      '@codingame/monaco-vscode-quickaccess-service-override': 11.1.2
-      '@vscode/iconv-lite-umd': 0.7.0
-      jschardet: 3.1.4
-      marked: 14.0.0
+      '@codingame/monaco-vscode-base-service-override': 3.2.3
+      '@codingame/monaco-vscode-environment-service-override': 3.2.3
+      '@codingame/monaco-vscode-extensions-service-override': 3.2.3
+      '@codingame/monaco-vscode-files-service-override': 3.2.3
+      '@codingame/monaco-vscode-host-service-override': 3.2.3
+      '@codingame/monaco-vscode-layout-service-override': 3.2.3
+      '@codingame/monaco-vscode-quickaccess-service-override': 3.2.3
 
-  '@codingame/monaco-vscode-base-service-override@11.1.2':
+  '@codingame/monaco-vscode-base-service-override@3.2.3':
     dependencies:
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
+      vscode: '@codingame/monaco-vscode-api@3.2.3'
 
-  '@codingame/monaco-vscode-chat-comments-extensions-interactive-notebook-search-common@11.1.2':
+  '@codingame/monaco-vscode-configuration-service-override@3.2.3':
     dependencies:
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
+      '@codingame/monaco-vscode-base-service-override': 3.2.3
+      '@codingame/monaco-vscode-environment-service-override': 3.2.3
+      '@codingame/monaco-vscode-extensions-service-override': 3.2.3
+      '@codingame/monaco-vscode-files-service-override': 3.2.3
+      '@codingame/monaco-vscode-host-service-override': 3.2.3
+      '@codingame/monaco-vscode-layout-service-override': 3.2.3
+      '@codingame/monaco-vscode-quickaccess-service-override': 3.2.3
+      vscode: '@codingame/monaco-vscode-api@3.2.3'
 
-  '@codingame/monaco-vscode-chat-extensions-interactive-notebook-search-terminal-common@11.1.2':
+  '@codingame/monaco-vscode-editor-api@3.2.3':
     dependencies:
-      marked: 14.0.0
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
+      vscode: '@codingame/monaco-vscode-api@3.2.3'
 
-  '@codingame/monaco-vscode-chat-extensions-notebook-common@11.1.2':
+  '@codingame/monaco-vscode-environment-service-override@3.2.3':
     dependencies:
-      '@codingame/monaco-vscode-chat-extensions-interactive-notebook-search-terminal-common': 11.1.2
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
+      vscode: '@codingame/monaco-vscode-api@3.2.3'
 
-  '@codingame/monaco-vscode-chat-extensions-notebook-task-terminal-testing-common@11.1.2':
+  '@codingame/monaco-vscode-extensions-service-override@3.2.3':
     dependencies:
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
+      '@codingame/monaco-vscode-base-service-override': 3.2.3
+      '@codingame/monaco-vscode-environment-service-override': 3.2.3
+      '@codingame/monaco-vscode-files-service-override': 3.2.3
+      '@codingame/monaco-vscode-host-service-override': 3.2.3
+      '@codingame/monaco-vscode-layout-service-override': 3.2.3
+      '@codingame/monaco-vscode-quickaccess-service-override': 3.2.3
+      vscode: '@codingame/monaco-vscode-api@3.2.3'
 
-  '@codingame/monaco-vscode-comments-extensions-common@11.1.2':
+  '@codingame/monaco-vscode-files-service-override@3.2.3':
     dependencies:
-      '@codingame/monaco-vscode-chat-comments-extensions-interactive-notebook-search-common': 11.1.2
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
+      vscode: '@codingame/monaco-vscode-api@3.2.3'
 
-  '@codingame/monaco-vscode-configuration-service-override@11.1.2':
+  '@codingame/monaco-vscode-host-service-override@3.2.3':
     dependencies:
-      '@codingame/monaco-vscode-files-service-override': 11.1.2
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
+      vscode: '@codingame/monaco-vscode-api@3.2.3'
 
-  '@codingame/monaco-vscode-editor-api@11.1.2':
+  '@codingame/monaco-vscode-layout-service-override@3.2.3':
     dependencies:
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
+      vscode: '@codingame/monaco-vscode-api@3.2.3'
 
-  '@codingame/monaco-vscode-environment-service-override@11.1.2':
+  '@codingame/monaco-vscode-quickaccess-service-override@3.2.3':
     dependencies:
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
-
-  '@codingame/monaco-vscode-extensions-service-override@11.1.2':
-    dependencies:
-      '@codingame/monaco-vscode-chat-extensions-interactive-notebook-search-terminal-common': 11.1.2
-      '@codingame/monaco-vscode-chat-extensions-notebook-common': 11.1.2
-      '@codingame/monaco-vscode-comments-extensions-common': 11.1.2
-      '@codingame/monaco-vscode-files-service-override': 11.1.2
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
-
-  '@codingame/monaco-vscode-files-service-override@11.1.2':
-    dependencies:
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
-
-  '@codingame/monaco-vscode-host-service-override@11.1.2':
-    dependencies:
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
-
-  '@codingame/monaco-vscode-layout-service-override@11.1.2':
-    dependencies:
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
-
-  '@codingame/monaco-vscode-quickaccess-service-override@11.1.2':
-    dependencies:
-      vscode: '@codingame/monaco-vscode-api@11.1.2'
+      vscode: '@codingame/monaco-vscode-api@3.2.3'
 
   '@esbuild/aix-ppc64@0.24.2':
     optional: true
@@ -2048,8 +2000,6 @@ snapshots:
       vite: 6.0.7
     transitivePeerDependencies:
       - supports-color
-
-  '@vscode/iconv-lite-umd@0.7.0': {}
 
   acorn-jsx@5.3.2(acorn@8.14.0):
     dependencies:
@@ -2792,8 +2742,6 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
-  jschardet@3.1.4: {}
-
   jsesc@3.1.0: {}
 
   json-buffer@3.0.1: {}
@@ -2847,8 +2795,6 @@ snapshots:
   make-dir@3.1.0:
     dependencies:
       semver: 6.3.1
-
-  marked@14.0.0: {}
 
   math-intrinsics@1.1.0: {}
 

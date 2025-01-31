@@ -6,6 +6,14 @@ import editorWorker from 'monaco-editor/esm/vs/editor/editor.worker?worker';
 import { initialize } from 'vscode/services'
 import getConfigurationServiceOverride, { updateUserConfiguration } from '@codingame/monaco-vscode-configuration-service-override'
 
+const value = `
+function fun(x) {
+    return x;
+}
+
+fun()
+`
+
 export async function bootstrap() {
 
     window.MonacoEnvironment = {
@@ -24,8 +32,10 @@ export async function bootstrap() {
           "editor.letterSpacing": 0,
       }`)
       
+
+      
       // creating an editor with VSCode configuration
       return monaco.editor.create(document.getElementById('container'), {
-          value: "Editor with VSCode config and large bold fonts",
-      });    
+          value,
+      },  { language: 'javasript' });    
 }
