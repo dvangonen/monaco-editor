@@ -11,10 +11,13 @@ function App () {
   const [count, setCount] = useState(0)
 
   useLayoutEffect(() => {
-    let editor;
+    let myEditor;
+
     (
       async () => {
-        editor = bootstrap()
+        myEditor = await bootstrap()
+
+        myEditor.focus()
       }
     )()
     // const value = 
@@ -30,13 +33,18 @@ function App () {
     // }); 
 
     return () => {
-      editor?.dispose?.()
+      myEditor?.dispose?.()
     }
   })
 
   return (
     <>
       <div id="container">
+      </div>
+      <div>
+        <button onClick={() => editor.getEditors()[0].focus()}>
+          Focus in editor
+        </button>
       </div>
     </>
   )
